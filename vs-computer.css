@@ -1,0 +1,111 @@
+
+
+table {
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 15;
+}
+
+td {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: 150px;
+    border: 3px solid #f76b8a;
+    border-style: inset;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
+
+.container1, .container2 {
+    font-family: 'Luckiest Guy', cursive;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+    text-align: center;
+    width: 14%;
+    z-index: 1;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
+.container1 {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.container2 {
+    margin-left: 1090px;
+    margin-top: -403px;
+}
+/* styles.css ou votre fichier CSS principal */
+.message-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 100;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+#message-button {
+    background: #f76b8a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#message-button:hover {
+    background: #e65c6f;
+}
+.x ,.o{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 105px;
+}
+.x{
+    color: #66bfbf;
+}
+.o{
+    color: #e65c6f;
+}
+
+#b{
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 10px;
+    margin-left: 110px;
+    background-color: #e65c6f;
+}
+#b a {
+    color: white;
+
+}
